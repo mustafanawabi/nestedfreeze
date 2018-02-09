@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/mustafanawabi/nestedfreeze#readme",
   "dependencies": {
-    "is-object": "^1.0.1"
+    "is-plain-object": "^2.0.4"
   }
 }
