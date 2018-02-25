@@ -1,6 +1,8 @@
 # nestedfreeze
 Javascript's [Object.freeze](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze) does not recursively freeze objects. This module does that for you.
 
+`nestedfreeze` is performant. Here's a comparison against [`deepfreeze`](https://github.com/serapath/deepfreeze/blob/master/index.js) [jsfperf](https://jsperf.com/nestedfreeze-vs-deepfreeze/1)
+
 ## Install
 ``` console
 npm install nestedfreeze --save
@@ -23,4 +25,9 @@ freeze(obj)
 
 obj.foo.baz = 'change me'
 console.log(obj.foo.baz) // do esse esse et dolor
+```
+
+## Test
+``` js
+npm run test
 ```
