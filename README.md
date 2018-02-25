@@ -1,7 +1,7 @@
 # nestedfreeze
 Javascript's [Object.freeze](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze) does not recursively freeze objects. This module does that for you.
 
-`nestedfreeze` is performant. Click [here](https://jsperf.com/nestedfreeze-vs-deepfreeze/1) for a performance benchmark against [`deepfreeze`](https://github.com/serapath/deepfreeze/blob/master/index.js).
+`nestedfreeze` is faster than [`deepfreeze`](https://github.com/serapath/deepfreeze/blob/master/index.js).
 
 ## Install
 ``` console
