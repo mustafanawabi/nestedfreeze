@@ -1,4 +1,4 @@
-const isPlainObject = require('is-object')
+const isPlainObject = require('is-plain-object')
 
 const nestedFreeze = (obj) => {
   Object.freeze(obj)

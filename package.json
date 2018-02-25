@@ -18,5 +18,9 @@
   "homepage": "https://github.com/mustafanawabi/nestedfreeze#readme",
   "dependencies": {
     "is-plain-object": "^2.0.4"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.1",
+    "should": "^13.2.1"
   }
 }
